@@ -81,3 +81,9 @@ textarea{
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+.save {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
