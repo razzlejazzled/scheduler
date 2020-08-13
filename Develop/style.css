@@ -87,3 +87,14 @@ textarea{
   justify-content: center;
   align-items: center;
 }
+ 
+
+.input {
+  display: block;
+  width: 100%;
+  
+}
+
+.time {
+  text-align: center;
+}
