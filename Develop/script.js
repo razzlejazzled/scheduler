@@ -30,7 +30,7 @@ $(".time-block").each(function(){
     const hour = parseInt($(this).attr("id").replace("hour-", ""));
     console.log(hour)
     if (hour < currentHour){
-        $(this).addClass("present");
+        $(this).addClass("past");
     } else if(currentHour === hour){
         $(this).addClass("present");
     } else {
