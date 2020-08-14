@@ -3,4 +3,4 @@ The purpose of this assignment was to create a work schedule generator. You can 
 
 The site can be viewed here: https://razzlejazzled.github.io/scheduler/
 
-![Ascreenshot](images/filename Screenshot.png)
+![Ascreenshot](images/Screenshot.png)
