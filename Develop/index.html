@@ -20,105 +20,105 @@
     <p id="currentDay" class="lead"></p>
   </header>
   <div class="container">
-    <div class="row" id="0900">
-      <div class="col-2">
-        <h5 class="time">9am</h5>
-      </div>
-      <div class="col-8">
-        <input class="input">
-      </div>
-      <div class="col-2">
-        <button class = "save">Save</button>
-      </div>
+    <div class="row time-block" id="hour-9">
+      <div class="col-md-1 hour">
+        9AM
+       </div> 
+        <textarea class="col-md-10 description">
+      </textarea>
+
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      
     </div>
-    <div class="row" id="1000">
-      <div class="col-2">
-        <h5 class = "time">10am</h5>
+
+    <div class="row time-block" id="hour-10">
+      <div class="col-md-1 hour">
+        10AM
       </div>
-      <div class="col-8">
-        <input class = "input">
-      </div>
-      <div class="col-2">
-        <button class = "save">Save</button>
-      </div>
+        <textarea class="col-md-10 description">
+      </textarea>
+
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      
     </div>
-    <div class="row" id="1100">
-      <div class="col-2">
-        <h5 class = "time">11am</h5>
+
+    <div class="row time-block" id="hour-11">
+      <div class="col-md-1 hour">
+        11AM
       </div>
-      <div class="col-8">
-        <input class= "input">
-      </div>
-      <div class="col-2">
-        <button class="save">Save</button>
-      </div>
+      <textarea class="col-md-10 description">
+      </textarea>
+     
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      
     </div>
-    <div class="row" id="1200">
-      <div class="col-2">
-        <h5 class="time">12pm</h5>
+
+    <div class="row time-block" id="hour-12">
+      <div class="col-md-1 hour">
+        12pm
       </div>
-      <div class="col-8">
-        <input class="input">
-      </div>
-      <div class="col-2">
-        <button class="save">Save</button>
-      </div>
+      <textarea class="col-md-10 description">
+      </textarea>
+      
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      
     </div>
-    <div class="row" id="1300">
-      <div class="col-2">
-        <h5 class="time">1pm</h5>
+
+    <div class="row time-block" id="hour-13">
+      <div class="col-md-1 hour">
+        1pm
       </div>
-      <div class="col-8">
-        <input class="input">
-      </div>
-      <div class="col-2">
-        <button class="save">Save</button>
-      </div>
+      <textarea class="col-md-10 description">
+      </textarea>
+     
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      
     </div>
-    <div class="row" id="1400">
-      <div class="col-2">
-        <h5 class="time">2pm</h5>
+
+    <div class="row time-block" id="hour-14">
+      <div class="col-md-1 hour">
+        2pm
       </div>
-      <div class="col-8">
-        <input class="input">
-      </div>
-      <div class="col-2">
-        <button class= "save">Save</button>
-      </div>
+      <textarea class="col-md-10 description">
+      </textarea>
+      
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      
     </div>
-    <div class="row" id="1500">
-      <div class="col-2">
-        <h5 class= "time">3pm</h5>
+
+    <div class="row time-block" id="hour-15">
+      <div class="col-md-1 hour">
+        3pm
       </div>
-      <div class="col-8">
-        <input class = "input">
-      </div>
-      <div class="col-2">
-        <button class = "save">Save</button>
-      </div>
+      <textarea class="col-md-10 description">
+      </textarea>
+      
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      
     </div>
-    <div class="row" id="1600">
-      <div class="col-2">
-        <h5 class="time">4pm</h5>
+
+    <div class="row time-block" id="hour-16">
+      <div class="col-md-1 hour">
+        4pm
       </div>
-      <div class="col-8">
-        <input class="input">
-      </div>
-      <div class="col-2">
-        <button class ="save">Save</button>
-      </div>
+      <textarea class="col-md-10 description">
+      </textarea>
+      
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      
     </div>
-    <div class="row" id="1700">
-      <div class="col-2">
-        <h5 class="time">5pm</h5>
+
+    <div class="row time-block" id="hour-17">
+      <div class="col-md-1 hour">
+        5pm
       </div>
-      <div class="col-8">
-        <input class="input">
-      </div>
-      <div class="col-2">
-        <button class="save">Save</button>
-      </div>
+      <textarea class="col-md-10 description">
+      </textarea>
+     
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      
     </div>
+
 
     <!-- Timeblocks go here 
       Perhaps give each time (use military time) its own row. Then you have a col-2 on either side of a col-8. Each col-2 shows you the time on the left and the save button on the right. the middle is a series of inputs-->
@@ -126,7 +126,7 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src ="script.js"></script>"
+  <script src="script.js"></script>"
 </body>
 
 </html>

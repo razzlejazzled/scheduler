@@ -70,31 +70,3 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-.col-2 {
-  border-style: solid;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.col-8{
-  border-style: solid;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.save {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
- 
-
-.input {
-  display: block;
-  width: 100%;
-  
-}
-
-.time {
-  text-align: center;
-}
